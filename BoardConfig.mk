@@ -29,6 +29,10 @@ TARGET_HAS_QACT := true
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/u8833/bluetooth
 
+# FM radio experiment, works for Y5
+TARGET_FM_LEGACY_PATCHLOADER := true
+#TARGET_QCOM_NO_FM_FIRMWARE := true #not of use anymore
+
 # Kernel
 TARGET_KERNEL_CONFIG := u8833_defconfig
 
